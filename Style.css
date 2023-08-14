@@ -1,0 +1,555 @@
+/* Section 1 */
+
+.section1-img {
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  padding-bottom: 34px;
+  border-bottom: 2px solid blue;
+}
+
+/* left side */
+
+.section1-left {
+  width: 60%;
+  margin-right: 24px;
+}
+
+/* right side */
+
+.section1-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section1-right h1 {
+  -webkit-text-stroke: 1px blue;
+  color: transparent;
+}
+
+.section1-right h3 {
+  font-weight: 500;
+  color: blue;
+  margin: 20px 0;
+}
+
+button {
+  background-color: red;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  color: white;
+  height: 40px; /* got confused here, wiring frame says it needs
+                  padding top/bot 8px, but the button looks too 
+                  thin w/out this */
+}
+
+button:hover {
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+  transition: 1s;
+}
+
+/* Section 2 */
+
+.section2 {
+  display: flex;
+  margin-top: 34px;
+}
+
+/* left side */
+
+.section2 {
+  border-bottom: 2px solid blue;
+}
+
+.section2-left {
+  width: 60%;
+  padding-right: 24px;
+}
+
+.section2-left-txt {
+  margin-top: 32px;
+  margin-bottom: 34px;
+}
+
+.section2-left-txt h1 {
+  margin-bottom: 24px;
+}
+
+.section2-left-txt p {
+  margin-bottom: 48px;
+  line-height: 30px;
+  font-weight: lighter;
+  color: blue;
+}
+
+.section2-left-txt span {
+  font-size: small;
+}
+
+.section2-img {
+  width: 100%;
+}
+
+/* right side */
+
+.section2-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2-right-container {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  border: 1px solid blue;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.section2-right-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+.section2-right-img {
+  width: 35%;
+}
+
+.section2-right-txt {
+  margin-left: 16px;
+  line-height: 20px;
+}
+
+.section2-right-txt a {
+  text-decoration: none;
+  color: red;
+  font-size: small;
+}
+
+.section2-right-txt a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.section2-right-txt p {
+  opacity: 0.7;
+  margin: 8px 0;
+}
+
+/* Mobile */
+.section2-right-mobile {
+  width: 100%;
+}
+
+.section2-right-container-mobile {
+  border: 1px solid blue;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.section2-right-txt-mobile {
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.section2-right-txt-mobile a {
+  text-decoration: none;
+  color: red;
+  font-size: small;
+}
+
+.section2-right-txt-mobile p {
+  opacity: 0.7;
+  margin: 8px 0;
+}
+
+.section2-right-txt-mobile h3 {
+  margin-top: 16px;
+}
+
+.section2-right-mobile img {
+  width: 100%;
+}
+
+.section2-right-txt-mobile a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.section2-right-container-mobile:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+/* Section 3 */
+
+#online {
+  text-align: center;
+  margin: 34px 0;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 48px;
+  margin-right: 48px;
+  padding-bottom: 34px;
+  gap: 32px;
+}
+
+.section3-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.section3-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+.section3-container-img {
+  width: 100%;
+}
+
+.section3-container-txt h3 {
+  margin: 16px 0px 0px 16px;
+}
+
+.section3-container-txt p {
+  margin: 8px 0px 24px 16px;
+  opacity: 0.7;
+}
+
+.section3-container-txt {
+  line-height: 25px;
+
+}
+
+.section3-border {
+  border-bottom: 2px solid blue;
+}
+
+/* Mobile */
+
+.section3-mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#first-container {
+  margin-top: 0;
+}
+
+.section3-container-mobile {
+  padding: 24px;
+  color: black;
+  border: 1px solid blue;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.section3-container-mobile:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+/* Section 4 */
+
+#for-companies {
+  text-align: center;
+  margin: 34px 0;
+}
+
+#for-companies-mobile {
+  text-align: center;
+  margin: 34px 0;
+}
+
+.section4-final {
+  display: flex;
+  padding-bottom: 34px;
+}
+
+/* left side */
+
+.section4-left-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.section4-left-vid video {
+  width: 100%;
+}
+
+.section4-left-txt h2 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.section4-left-txt p {
+  color: blue;
+  line-height: 30px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+
+/* right side */
+
+.section4-right-container {
+  margin-left: 16px;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+  margin-left: -24px;
+  margin-right: -24px;
+  background-color: whitesmoke;
+  border-top: 2px solid blue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* left side */
+
+.footer-left {
+  color: gray;
+  font-size: small;
+  line-height: 20px;
+  padding-left: 24px;
+}
+
+.footer-left a {
+  color: red;
+  text-decoration: none;
+}
+
+#footer-left-txt {
+  color: gray;
+}
+
+/* right side */
+
+.footer-right {
+  padding-right: 24px;
+}
+
+.footer-right a {
+  padding-left: 16px;
+  text-decoration: none;
+  color: red;
+  font-size: small;
+}
+
+.footer-right a:hover,
+.footer-left a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+
+
+
+/* Header */
+
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: whitesmoke;
+}
+
+/* left side */
+
+.left-section {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.colmar {
+  font-weight: 700;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.academy {
+  font-weight: 100;
+  color: rgb(90, 90, 90);
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.colmar-logo {
+  width: 40px;
+}
+
+/* right side */
+
+.right-section {
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+}
+
+.right-section a {
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+}
+
+.right-section a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+/* Mobile */
+
+nav.mobile {
+  width: 100%;
+  display: flex
+}
+
+.mobile-links-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mobile-links-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+nav.mobile a:hover {
+  color: red;
+}
+
+
+body {
+  font-family: Roboto, Arial;
+  margin-top: 105px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 80px;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+
+
+/* Desktop */
+
+@media only screen and (min-width: 701px) {
+  nav.mobile {
+    display: none;
+  }
+  #for-companies-mobile {
+    display: none;
+  }
+  .section2-right-mobile {
+    display: none;
+  }
+  .section3-mobile {
+    display: none;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 700px) {
+  /* Header */
+  nav.right-section {
+    display: none;
+  }
+  .left-section {
+    display: none;
+  }
+  /* Main */
+  /* Section 1 */
+  .section1 {
+    display: block;
+  }
+  .section1-left {
+    width: 100%;
+    padding: 0;
+  }
+  .section1-right {
+    width: 100%;
+    margin-top: 32px;
+  }
+  /* Section 2 */
+  .section2-left,
+  .section2-right {
+    display: none;
+  }
+  /* Section 3 */
+  .section3-container {
+    display: none;
+  }
+  /* Section 4 */
+  #for-companies {
+    display: none;
+  }
+  .section4-right-container {
+    display: none;
+  }
+  .section4-left-txt {
+    display: none;
+  }
+  .section4-left-container {
+    width: 100%;
+  }
+  /* Footer */
+  .footer-right {
+    display: none;
+  }
+}
